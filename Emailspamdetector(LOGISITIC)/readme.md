@@ -200,4 +200,4 @@ Each implementation will be developed as a separate project to compare performan
 
 ---
 
-## ⭐ If you found this project helpful, consider giving it a star!
+## ⭐ If you found this project helpful, consider giving it a star
