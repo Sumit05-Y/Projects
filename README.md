@@ -1,53 +1,70 @@
-# 🤖 AI & Machine Learning Projects
+# 🤖 AI, Machine Learning & Deep Learning Projects
 
-Welcome to my AI & Machine Learning repository!
+Welcome to my AI, Machine Learning & Deep Learning repository!
 
-This repository is a collection of projects that showcase my learning journey in **Artificial Intelligence**, **Machine Learning**, **Data Science**, **Natural Language Processing (NLP)**, and **Model Deployment** using Python. Each project focuses on solving real-world problems while applying machine learning algorithms, data preprocessing techniques, model evaluation methods, and deployment tools.
+This repository showcases my hands-on learning journey in **Artificial Intelligence (AI)**, **Machine Learning (ML)**, **Deep Learning (DL)**, **Data Science**, **Computer Vision**, **Natural Language Processing (NLP)**, and **Model Deployment** using Python.
 
-The repository also includes multiple implementations of spam detection using different datasets and machine learning algorithms, allowing for performance comparison and a deeper understanding of different modeling approaches.
+Each project focuses on solving real-world problems by applying data preprocessing techniques, machine learning and deep learning algorithms, model evaluation, and deployment using modern frameworks such as **FastAPI** and **Streamlit**.
+
+As I continue learning, this repository will grow with more projects covering classical machine learning, deep learning, computer vision, NLP, and AI applications.
 
 ---
 
 # 🚀 Repository Goals
 
-- Learn Machine Learning through hands-on projects
-- Build complete end-to-end ML applications
-- Practice Data Analysis and Feature Engineering
-- Explore various Machine Learning algorithms
-- Compare different models on similar problems
-- Deploy trained models using modern frameworks
-- Maintain clean, well-documented projects
+- Learn AI, Machine Learning, and Deep Learning through hands-on projects
+- Build complete end-to-end AI applications
+- Practice data preprocessing and feature engineering
+- Explore different Machine Learning and Deep Learning algorithms
+- Compare multiple models on similar datasets
+- Deploy trained models using FastAPI and Streamlit
+- Improve software engineering practices for AI projects
+- Maintain clean, modular, and well-documented repositories
 
 ---
 
 # 🛠️ Technologies & Tools
 
-### Programming
+## Programming
 
 - Python
 
-### Machine Learning
+## Machine Learning
 
 - Scikit-learn
+- TensorFlow / Keras
+
+## Data Processing
+
 - NumPy
 - Pandas
 
-### Data Visualization
+## Data Visualization
 
 - Matplotlib
 - Seaborn
 
-### Natural Language Processing
+## Computer Vision
+
+- OpenCV
+- Pillow (PIL)
+
+## Natural Language Processing
 
 - TF-IDF Vectorization
 
-### Deployment
+## Deployment
 
 - FastAPI
 - Streamlit
-- Joblib
+- Uvicorn
 
-### Development Tools
+## Model Serialization
+
+- Joblib
+- Keras Model (.keras)
+
+## Development Tools
 
 - Git
 - GitHub
@@ -59,9 +76,10 @@ The repository also includes multiple implementations of spam detection using di
 
 | Project | Description | Status |
 |----------|-------------|--------|
-| 🔬 Breast Cancer Classification (SVM) | Predicts whether a tumor is malignant or benign using a Support Vector Machine (SVM) with FastAPI and Streamlit deployment. | ✅ Completed |
-| 📧 Email Spam Detector (Logistic Regression) | Detects spam and legitimate email messages using TF-IDF Vectorization and a Logistic Regression classifier with FastAPI and Streamlit deployment. | ✅ Completed |
-| 📱 SMS Spam Classifier (Random Forest) | Classifies SMS messages as Spam or Ham using TF-IDF Vectorization and a Random Forest classifier with an interactive Streamlit web application. | ✅ Completed |
+| 🔬 Breast Cancer Classification (SVM) | Predicts whether a tumor is malignant or benign using a Support Vector Machine with FastAPI and Streamlit deployment. | ✅ Completed |
+| 📧 Email Spam Detector (Logistic Regression) | Detects spam and legitimate email messages using TF-IDF Vectorization and Logistic Regression with FastAPI and Streamlit deployment. | ✅ Completed |
+| 📱 SMS Spam Classifier (Random Forest) | Classifies SMS messages as Spam or Ham using TF-IDF Vectorization and Random Forest with an interactive Streamlit application. | ✅ Completed |
+| ✍️ Handwritten Digit Detection (CNN) | Recognizes handwritten digits (0–9) using a Convolutional Neural Network (CNN) trained on the MNIST dataset with FastAPI and Streamlit deployment. | ✅ Completed |
 
 ---
 
@@ -72,14 +90,17 @@ This repository includes projects related to:
 - Exploratory Data Analysis (EDA)
 - Data Cleaning & Preprocessing
 - Feature Engineering
-- Regression
+- Supervised Learning
 - Classification
+- Regression
 - Clustering
 - Dimensionality Reduction (PCA)
 - Natural Language Processing (NLP)
 - Text Vectorization (TF-IDF)
+- Computer Vision
+- Convolutional Neural Networks (CNN)
+- Deep Learning
 - Model Evaluation
-- Algorithm Comparison
 - Hyperparameter Tuning
 - Model Deployment
 - REST API Development
@@ -118,6 +139,14 @@ Projects/
 │       ├── spam_classifier.pkl
 │       └── tfidf_vectorizer.pkl
 │
+├── DigitDetector/
+│   ├── app.py
+│   ├── main.py
+│   ├── train_model.py
+│   ├── cnn_mnist_model.keras
+│   ├── requirements.txt
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -132,19 +161,41 @@ Each project typically includes:
 - Data Preprocessing
 - Exploratory Data Analysis (where applicable)
 - Feature Engineering
-- Model Building
-- Model Comparison
+- Machine Learning or Deep Learning Model
+- Model Training
 - Model Evaluation
-- Model Saving
-- Deployment using FastAPI and/or Streamlit
-- Interactive User Interface
-- Detailed Documentation
+- Model Saving & Loading
+- REST API using FastAPI
+- Interactive Streamlit Interface
+- Complete Documentation
 
 ---
 
 # 🌱 Learning Journey
 
-This repository represents my continuous learning in Artificial Intelligence and Machine Learning. Every project helps strengthen my understanding of machine learning algorithms, data preprocessing, feature engineering, model evaluation, and deployment. Some projects intentionally solve similar problems using different datasets and machine learning algorithms to compare their performance and gain deeper practical insights.
+This repository reflects my continuous journey of learning AI, Machine Learning, and Deep Learning through practical projects.
+
+Starting with Python fundamentals, I progressed into Data Science, Exploratory Data Analysis (EDA), classical Machine Learning, Natural Language Processing, and now Deep Learning. Each project helps strengthen my understanding of data preprocessing, feature engineering, model development, evaluation, deployment, and real-world AI application development.
+
+As I continue learning, I plan to expand this repository with more advanced projects in Computer Vision, NLP, Generative AI, and MLOps.
+
+---
+
+# 🚀 Future Projects
+
+Planned additions include:
+
+- Image Classification
+- Object Detection
+- Face Mask Detection
+- Cat vs Dog Classifier
+- Transfer Learning Projects
+- Medical Image Classification
+- Sentiment Analysis
+- Recommendation Systems
+- Time Series Forecasting
+- Generative AI Applications
+- MLOps & Model Deployment
 
 ---
 
@@ -160,9 +211,9 @@ If you find these projects useful or interesting, consider giving the repository
 
 **Sumit Sah**
 
-Aspiring AI & Machine Learning Engineer passionate about building intelligent systems and developing end-to-end machine learning applications.
+Aspiring AI & Machine Learning Engineer passionate about building intelligent systems and developing end-to-end AI applications.
 
-- GitHub: https://github.com/Sumit05-Y
+**GitHub:** https://github.com/Sumit05-Y
 
 ---
 
